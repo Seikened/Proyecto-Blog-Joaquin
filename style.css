@@ -1,4 +1,36 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 header{
-    background-color: rgb(125 124 100) ;
+    background-color: rgb(164, 200, 232) ;
+    
+}
+
+h1{
+    display:inline ;
+    text-align: center;
+    padding-left: 2.5rem;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+  text-decoration: none;  
+  color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
 }
