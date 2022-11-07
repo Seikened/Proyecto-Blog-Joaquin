@@ -6,7 +6,7 @@
 }
 header{
     background-color: rgb(164, 200, 232) ;
-    
+    justify-content: center;
 }
 
 h1{
@@ -15,7 +15,16 @@ h1{
     width: 100%;
 }
 
+.nav-cont{
+    display: flex;
+    justify-content: center;
+}
+
 .nav{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
 a{
