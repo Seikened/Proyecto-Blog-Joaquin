@@ -10,15 +10,12 @@ header{
 }
 
 h1{
-    display:inline ;
     text-align: center;
     padding-left: 2.5rem;
     width: 100%;
 }
 
 .nav{
-    display: flex;
-    justify-content: space-between;
 }
 
 a{
