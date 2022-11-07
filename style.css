@@ -1,3 +1,6 @@
+:root{
+    --background: rgb(164, 200, 232);
+}
 
 *{
     box-sizing: border-box;
@@ -5,11 +8,13 @@
     padding: 0;
 }
 header{
-    background-color: rgb(164, 200, 232) ;
+    background-color: var(--background) ;
     justify-content: center;
+    min-width: 380px;
 }
 
 h1{
+    
     text-align: center;
     width: 100%;
     padding: 10px
@@ -26,6 +31,7 @@ h1{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    gap: 20px;
 }
 
 a{
@@ -49,4 +55,43 @@ a:hover{
 li{
     list-style-type: none;
     display: inline-block;
+}
+
+.mobile{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px 0 0;
+    padding: 0;
+    display:inline-block;
+    border:none;
+    height:60px;
+    width: 60px;
+    background-color: white;
+}
+.menutog{
+    display:inline;
+    align-items: center;
+    border:none;
+    height:1px;
+    margin: 0 0 10px 10px;
+    width: 50%;
+    background-color: black;
+    cursor:pointer;
+}
+.menutog::before{
+    position:absolute;
+    content: "";
+    padding: 0;
+    margin: 0;
+    height:1px;
+    width: 50%;
+    background-color: black;
+}
+
+.menutog:hover{
+    background-color: white;
+    border:10px;
+    border-color: black;
 }
