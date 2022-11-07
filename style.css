@@ -11,13 +11,14 @@ header{
 
 h1{
     text-align: center;
-    padding-left: 2.5rem;
     width: 100%;
+    padding: 10px
 }
 
 .nav-cont{
     display: flex;
     justify-content: center;
+    padding: .5rem;
 }
 
 .nav{
