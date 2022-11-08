@@ -1,5 +1,6 @@
 :root{
-    --background: rgb(164, 200, 232);
+    --background: #12afd6;
+    --background2: #085669;
 }
 
 *{
@@ -7,9 +8,16 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: white;
+
+}
+
 header{
     background-color: var(--background) ;
     justify-content: center;
+    align-items: center;
     min-width: 380px;
 }
 
@@ -62,36 +70,62 @@ li{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 0 100px 0 0;
+    margin: 15px 100px 0 15px;
     padding: 0;
     display:inline-block;
     border:none;
-    height:60px;
-    width: 60px;
-    background-color: white;
-}
-.menutog{
-    display:inline;
-    align-items: center;
-    border:none;
-    height:1px;
-    margin: 0 0 10px 10px;
-    width: 50%;
-    background-color: black;
-    cursor:pointer;
-}
-.menutog::before{
-    position:absolute;
-    content: "";
-    padding: 0;
-    margin: 0;
-    height:1px;
-    width: 50%;
-    background-color: black;
+    height:2rem; width: 2rem;
+    border-radius: 50%;
+    background-color: var(--background2);
 }
 
-.menutog:hover{
+.mobile:hover{
     background-color: white;
-    border:10px;
-    border-color: black;
+    cursor:pointer;
+}
+
+
+.menutog{
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    display:inline;
+    border:none;
+    height:1.9px;
+    width: 1rem;
+    background-color: white;
+    cursor:pointer;
+}
+
+.menutog::after{
+    content: "";
+    display: inline;
+    position: absolute;
+    top: .3rem;
+    right: 0.01rem;
+    border:none;
+    height:2px;
+    padding: 0;
+    width: 1rem; 
+    background-color: white;
+    cursor:pointer;
+}
+
+.menutog::before{
+    content: "";
+    display: inline;
+    position: absolute;
+    bottom: .3rem;
+    right: 0.01rem;
+    border:none;
+    height:2px;
+    padding: 0;
+    width: 1rem; 
+    background-color: white;
+    cursor:pointer;
+}
+
+
+.toggler-container{
+    
 }
