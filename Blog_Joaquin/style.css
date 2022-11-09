@@ -125,3 +125,10 @@ li{
     cursor:pointer;
 }
 
+.toggler{
+    display:none;
+}
+
+.toggler:checked ~ .nav-cont{
+    display:none;
+}
