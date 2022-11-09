@@ -11,8 +11,12 @@
             "id": "7446a8c2aea767ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "fuckin.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog_Joaquin/README.md",
+                "file": "fuckin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog_Joaquin/README.md",
+                "file": "fuckin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog_Joaquin/README.md"
+                "file": "fuckin.md"
               }
             }
           }
@@ -132,7 +136,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d9935d5d297314aa",
+  "active": "7446a8c2aea767ca",
   "lastOpenFiles": [
     "fuckin.md"
   ]
