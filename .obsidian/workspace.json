@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "b0cfd08276f41d89",
+    "type": "split",
+    "children": [
+      {
+        "id": "030b9f9bdbdc7f1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7446a8c2aea767ca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8572ef69765f42b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b4d21279d9c6573",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9935d5d297314aa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d7a860730ba2bb5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "30bf5a17ab07fa4e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eb5902593f8bfe65",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2118203549432b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cc343009da80fb0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Blog_Joaquin/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd6c9b45f6a27fbc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Blog_Joaquin/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "191e75b1e863ece5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9df9d3a177822387",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Blog_Joaquin/README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d9935d5d297314aa",
+  "lastOpenFiles": [
+    "fuckin.md"
+  ]
+}
